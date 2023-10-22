@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Sometype+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 300px;
+}
+input{
+    width: 300px;
+    display: block;border: 1px solid #00308F;
+    border-radius: 1em;
+    height: 2rem;
+    margin: 0.5rem 0 1.3rem 0;font-family: 'Montserrat', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+label{
+    margin-left: 1rem;
+}
+input:focus{
+    outline: none;
+}
+button{
+    width: 102%;
+    height: 2.2rem;
+    border-radius: 1em;
+    border: none;
+    background-color: #72A0C1;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+p{
+    font-size: 0.8rem;
+    margin: 0 0 1rem 1rem;
+    padding: 0;
+    color: #990F02;
+    transform: translate(0, -10px);
+}
+.select-input{
+    border: 1px solid #00308F;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+input[type=file]::file-selector-button{
+    border: none;
+    width: 40%;
+    height: 2rem;
+    background-color: #00308F;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+sup{
+    color: #990F02;
+}

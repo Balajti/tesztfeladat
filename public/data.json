@@ -1,0 +1,17 @@
+{
+    "companyData": {
+      "name": "",
+      "email": "",
+      "numberOfEmployees": 0,
+      "description": null
+    },
+    "employees": [
+        {
+            "name": "",
+            "email": "",
+            "jobTitle": "",
+            "age": 0,
+            "cv": ""
+        }
+    ]
+  }
